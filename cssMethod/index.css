@@ -1,0 +1,8 @@
+
+.rocko {
+  content: url('/rocko-1.jpg');
+}
+
+.rocko:hover {
+  content: url('/rocko-2.jpg');
+}
