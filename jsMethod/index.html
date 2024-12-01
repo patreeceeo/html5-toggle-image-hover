@@ -5,16 +5,24 @@
     <style>
       body {
         margin: 0;
+        height: 100vh;
+        width: 100vw;
+
+        display: flex;
+        flex-wrap: wrap;
       }
 
-      #rocko {
-        max-height: 100vh;
-        max-width: 100vw;
+      .rocko {
+        display: inline-block;
+        max-height: 50vh;
       }
     </style>
 </head>
 <body>
-  <img id="rocko" alt="rocko">
+  <img class="rocko" alt="rocko">
+  <img class="rocko" alt="rocko">
+  <img class="rocko" alt="rocko">
+  <img class="rocko" alt="rocko">
   <script src="./index.js"></script>
 </body>
 </html>
